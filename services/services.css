@@ -1,0 +1,112 @@
+
+.services-header {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4c4e61;
+    margin-top: 35px;
+}
+
+.services-container {
+}
+
+.services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-item {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    margin: 25px;
+
+    box-shadow: 0px 10px 40px -20px hsl(229, 6%, 66%);
+
+    border-top: 8px solid;
+    color: #a3a5ae;
+
+    width: 40%;
+    min-height: 450px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.services-item--border-yellow {
+    border-color: var(--mikado-yellow);
+}
+
+.services-item--border-blue {
+    border-color: var(--prussian-blue);
+}
+
+.service-item--border-light-blue {
+    border-color: var(--tiffany-blue);
+}
+
+.service-item--border-orange {
+    border-color: var(--orange-peel);
+}
+
+.services-item:hover {
+    /*background-color: #f5f5f5;*/
+    filter: brightness(95%);
+    transform: scale(1.04);
+}
+
+.service-item-icon {
+    height: 120px;
+    align-self: end;
+}
+
+.service-item-heading {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #4c4e61;
+}
+
+.service-item-description {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.service-example-link {
+    display: inline-block;
+
+    padding: 10px 15px;
+    max-height: 40px;
+
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+
+    background-color: var(--oxford-blue);
+    color: #ffffff;
+    box-shadow: 0px 10px 40px -20px hsl(229, 6%, 66%);
+    transition: all .2s ease-in-out;
+}
+
+.link-graphic-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-example-link:hover {
+    filter: brightness(90%);
+    transform: scale(0.98);
+}
+
+.service-example-link:active {
+    filter: brightness(85%);
+    box-shadow: 0px 10px 40px -20px hsl(229, 6%, 50%);
+    transform: scale(0.95);
+}

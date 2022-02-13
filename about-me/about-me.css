@@ -1,0 +1,183 @@
+.about-me-header {
+    font-size: 30px;
+    text-align: center;
+    color: #4c4e61;
+    margin-top: 35px;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 35px;
+    margin: 30px;
+
+    background-color: #fafafa;
+    box-shadow: 0px 10px 40px -20px hsl(229, 6%, 66%);
+
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.about-me-title {
+    color: #4c4e61;
+    margin: 15px 0;
+}
+
+.about-me-description {
+    color: #a3a5ae;
+}
+
+.about-me-content {
+    width: 65%;
+}
+
+.about-me-profile-img-container {
+    position: relative;
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    height: 300px;
+
+    border-radius: 100%;
+    border: 5px solid #ffffff;
+
+    box-shadow: 5px 10px 20px -20px #111113;
+    z-index: 1;
+}
+
+.profile-img-background {
+    height: 250px;
+    width: 250px;
+
+    border-radius: 100%;
+    background-color: var(--orange-peel);
+    box-shadow: 5px 10px 20px -20px #111113;
+
+    position: absolute;
+    top: 30px;
+    left: 125px;
+
+    z-index: 0;
+
+}
+
+.skills-table-title,
+.tools-title {
+    color: #4c4e61;
+    margin: 35px 0;
+    font-size: 22px;
+}
+
+.skills-table {
+    width: 100%;
+    border-radius: 10px;
+
+    background-color: #ffffff;
+    box-shadow: 0px 10px 40px -20px hsl(229, 6%, 66%);
+
+    overflow: hidden;
+}
+
+.skills-table-header {
+    color: #4c4e61;
+    background-color: #cbf3f0ff;
+}
+
+th, tr, td {
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+    border-left: 1px solid #80808038;
+}
+
+tr:nth-child(2) {
+    background-color: #80808014;
+}
+
+.skill-level-icon {
+    height: 30px;
+}
+
+.skill-check-icon {
+    height: 25px;
+}
+
+.skill-level {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.skill-check {
+    text-align: center;
+    vertical-align: center;
+}
+
+.tools-icon {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.about-me-icons-container {
+    position: absolute;
+    border-radius: 100%;
+    padding: 15px;
+    background-color: var(--light-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 20px -20px #111113;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.about-me-icons-container:hover {
+    transform: scale(1.2);
+    filter: brightness(95%);
+}
+
+.about-me-icons {
+    height: 30px;
+}
+
+.about-me-icons--cooking {
+    top: -70px;
+    left: 60px;
+}
+
+.about-me-icons--photography {
+    top: -100px;
+    left: 180px;
+}
+
+.about-me-icons--art {
+    top: -70px;
+    right: 40px;
+}
+
+.about-me-icons--travel {
+    bottom: -70px;
+    left: 60px;
+
+}
+
+.about-me-icons--starwars {
+    bottom: -100px;
+    left: 180px;
+}
+
+.about-me-icons--animals {
+    bottom: -70px;
+    right: 40px;
+}
