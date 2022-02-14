@@ -11,6 +11,8 @@
     --gold-web-golden: #ffd60aff;
     --very-light-gray: #fafafa;
 }
+
+
 * {
     box-sizing: border-box;
 }
@@ -76,6 +78,43 @@ body {
 .intro-description {
     font-size: 30px;
     color: #4c4e61;
+}
+
+.intro-subtitle {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #4c4e61;
+    display: flex;
+    align-items: center;
+}
+
+.intro-portfolio-link div{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(136, 0, 0);
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+.intro-portfolio-link div:hover{
+    filter: brightness(0.9);
+    transform: scale(0.98);
+}
+
+.intro-portfolio-link div:active{
+    filter: brightness(0.80);
+    transform: scale(0.95);
+}
+
+.intro-portfolio-link-icon {
+    height: 20px;
+    margin-right: 5px;
 }
 
 .intro-graphic {
